@@ -12,8 +12,7 @@
 ## Todo
 
 - [x] Handler interface 제거
-- [ ] HandlerAdaptor 인터페이스 생성
-- [ ] HandlerAdaptor 어노테이션 생성
-- [ ] HandlerAdaptor를 구현한 SimpleController, RequestMapping
+- [x] HandlerAdapter 인터페이스 생성
+- [ ] HandlerAdapter를 구현한 SimpleController, RequestMapping
 - [ ] RequestContext(Path Variable)
 - [ ] ArgumentResolver

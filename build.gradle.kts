@@ -25,6 +25,7 @@ subprojects {
 	dependencies {
 		val springVersion = rootProject.extra.get("springVersion")
 
+		implementation("com.google.code.gson:gson:2.8.6")
 		implementation("ch.qos.logback:logback-classic:1.2.3")
 		implementation("com.google.guava:guava:28.0-jre")
 		implementation("org.apache.commons:commons-lang3:3.9")
